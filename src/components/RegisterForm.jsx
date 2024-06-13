@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 const RegisterForm = memo(() => {
     return (
-        <div style={{border: '1px', borderColor: 'white'}}>
+        <container >
             <form action="" >
                 <label >Nombre</label>
                 <input type="text" name="name" id="name" />
@@ -17,7 +17,7 @@ const RegisterForm = memo(() => {
                 <br />
                 <button type="submit" style={{ borderColor: 'white', background: 'blue', color: 'whitesmoke'}}>Registrar</button>
             </form>
-        </div>
+        </container>
     );
 });
 
